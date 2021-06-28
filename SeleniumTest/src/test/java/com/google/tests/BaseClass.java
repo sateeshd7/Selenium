@@ -15,7 +15,7 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Sateesh\\Softwares\\Drivers\\chromedriver1.exe");
 		System.out.println("setup");
 		driver = new ChromeDriver();
-		
+		System.out.println("Initialized the driver");
 	}
 	
 	@AfterSuite
